@@ -1,0 +1,34 @@
+body{
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(51, 0, 17);
+ }
+ .board{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  min-height: 35vw;
+  max-height: 35vw;
+  min-width: 35vw;
+  max-width: 35vw;
+ }
+ .row{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+ }
+ .col{
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background-color: rgb(255, 255, 255)
+ }
